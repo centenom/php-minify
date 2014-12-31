@@ -1,0 +1,15 @@
+{
+    "name": "Drabajs/php-minify",
+    "description": "Library for minifying PHP files.",
+    "homepage": "http://nette.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Drabik"
+        }
+    ],
+    "autoload": {
+        "files": ["src/phpminify.php"]
+    },
+    "minimum-stability": "dev"
+}

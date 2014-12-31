@@ -5,10 +5,12 @@
  * @license   MIT Licence
  */
 
-require 'phpminify.php';
+require 'vendor/autoload.php';
+
+use Drabajs\PhpMinify\PhpMinify;
 
 $phpMinify = new PhpMinify(array(
-    'source' => './',
-    'target' => './demo/',
+    'source' => './input/',
+    'target' => './output/',
 ));
 var_dump($phpMinify->run());

@@ -5,6 +5,11 @@
  * @license   MIT Licence
  */
 
+namespace Drabajs\PhpMinify;
+
+use \RecursiveDirectoryIterator,
+    \RecursiveIteratorIterator;
+
 class PhpMinify
 {
     /**
@@ -36,7 +41,7 @@ class PhpMinify
     {
         return $this->fixSlashes($this->options['source']);
     }
-    
+
     /**
      * Source directory
      * @param string $source
