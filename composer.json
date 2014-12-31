@@ -1,7 +1,6 @@
 {
     "name": "drabajs/php-minify",
     "description": "Library for minifying PHP files.",
-    "homepage": "http://nette.org",
     "license": "MIT",
     "authors": [
         {
