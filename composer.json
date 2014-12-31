@@ -9,5 +9,6 @@
     ],
     "autoload": {
         "files": ["src/phpminify.php"]
-    }
+    },
+    "minimum-stability": "dev"
 }
